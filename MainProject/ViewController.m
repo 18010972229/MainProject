@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <A_Category/CTMediator+A.h>
 
 @interface ViewController ()
 
@@ -16,7 +17,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+//    AViewController *av = [[AViewController alloc] init];
 }
 
 - (void)didReceiveMemoryWarning {
